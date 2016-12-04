@@ -1,0 +1,13 @@
+28.10.2016;Jan Růžička;1380097;sword_Steel_300_500_50;bow_Elvic_244_250_25;arrow_Poisoning_34_40_5_1.5_3;magic_Energy Ball_45_75;pet_Misha_Siberian Bear_342_350_35_2;0;0;helmet_Dragon's Horn Helmet_765_800_25_5;chestplate_Devil's Plate_901_1000_35_15;leggings_Peasant Trippings_344_450_25_10;boots_Ikaros' Flee Boots_231_250_5_3;shield_Mínotauros' Forehead_115_210_15;coin_value=25_ornament=Eagle;coin_value=50_ornament=Lion
+
+// date;name;experience;equipped_sword;equipped_bow;equipped_arrows;equipped_magic;{pet_1};{pet_2};{pet_3};\
+// equipped_helmet;equipped_chestplate;equipped_leggings;equipped_boots;equipped_shield;other_things_in_backpack
+
+// 0 for none
+// Sword format: sword_{name}_{durability_now}_{durability_max}_{dmg_per_hit}
+// Bow format: bow_{name}_{durability_now}_{durability_max}_{dmg_per_hit}
+// Arrow format: arrow_{name}_{count_now}_{count_max}_{dmg_per_hit}_{dmg_per_tick_after_hit}_{tick_amount}
+// Magic format: magic_{name}_{mana_required}_{damage}
+// Pet format: pet_{name}_{kind}_{health_now}_{health_max}_{dmg_per_attack}_{attack_delay}
+// Armor format: (helmet/chestplate/leggings/boots)_{name}_{durability_now}_{durability_max}_{special_part_dmg_reduction_percent}_{whole_dmg_reduction_percent}
+// Generic item format: {name}_{property_name}={property_value}_...
